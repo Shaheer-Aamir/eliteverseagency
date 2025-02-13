@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
           <div className="flex flex-col text-white justify-center items-center gap-2 py-10">
             <p className="flex gap-2 items-center justify-center text-[16px] font-bold">
               <FaRegCopyright />
-              Copyright Elite Verse. All Rights Reserved
+              Copyright Elite Verse Agency. All Rights Reserved
             </p>
           </div>
         </div>

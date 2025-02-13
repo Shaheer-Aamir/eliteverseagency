@@ -88,7 +88,7 @@ const Header = () => {
         className="h-screen bg-[url('/img/hero.gif')] bg-cover flex flex-col justify-center items-center bg-center bg-fixed relative"
       >
         <header
-          className={`animate-navbar fixed top-2 z-50 py-5 rounded-full px-3 sm:px-10 md:px-20 flex justify-between text-[14px] items-center text-white transition-all ${isSticky
+          className={`animate-navbar fixed top-2 z-50 py-5 rounded-full px-3 sm:px-10 md:px-5 flex justify-between text-[14px] items-center text-white transition-all ${isSticky
             ? "bg-[#2d2f3261] bg-opacity-70 backdrop-blur-md w-[80%]"
             : "bg-transparent w-[90%]"
             }`}

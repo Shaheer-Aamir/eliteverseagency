@@ -32,8 +32,8 @@ const Footer = () => {
             <Image
               src="/img/EV-WebsiteLogo-removebg-preview.png"
               alt="Elite Verse Agency Header Logo"
-              width={150}
-              height={50}
+              width={200}
+              height={100}
               className="w-full h-auto"
             />
           </div>

@@ -13,7 +13,10 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="w-full flex flex-col items-center py-20 font-poppins">
+    <div
+      id="services"
+      className="w-full flex flex-col items-center py-20 font-poppins"
+    >
       <div className="w-full px-5 sm:px-16 md:px-20 lg:px-24 flex flex-col">
         <h2 className="uppercase text-lightblue tracking-widest flex items-center gap-5">
           What we offer{" "}
@@ -36,7 +39,12 @@ const Services = () => {
             className="bg-[#10192a] px-8 py-11 rounded-3xl shadow flex text-center items-center justify-center hover:shadow-yellow-600 hover:-translate-y-2 transition-all duration-300"
           >
             <div className="text-[20px] sm:text-[22px] md:text-[25px] font-semibold text-[#fbb02e] flex justify-center items-center flex-col gap-3">
-              <Image src={service.logo} height={80} width={80} alt={service.name} />
+              <Image
+                src={service.logo}
+                height={80}
+                width={80}
+                alt={service.name}
+              />
               <h1>{service.name}</h1>
             </div>
           </div>

@@ -43,7 +43,7 @@ const Difference = () => {
       </div>
 
       <div className="w-full flex flex-col lg:flex-row items-center gap-10 px-24 justify-center animate__animated animate__zoomIn animate-delay-1s">
-        <div className="mt-10 px-10 w-[350px] sm:w-[600px] lg:w-[500px] py-10 bg-bgblue rounded-3xl">
+        <div className="mt-10 px-10 w-[350px] sm:w-[600px] lg:w-[500px] py-10 bg-bgblue rounded-3xl hover:shadow-yellow-600 hover:-translate-y-2 transition-all duration-300">
           <div className="flex items-center justify-center">
             <Image
               src="/img/ELITE_VERSE.png"

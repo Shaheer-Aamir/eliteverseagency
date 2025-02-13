@@ -2,7 +2,7 @@ import Link from "next/link";
 const CTA = () => {
   return (
     <div className="w-full mt-20 flex justify-center items-center font-raleway">
-      <div className="md:w-[90%] w-full h-[500px] shadow-lg shadow-blue-600 text-white rounded-3xl flex flex-col justify-center items-center bg-[url('/img/cta-bg.png')] bg-cover bg-no-repeat bg-center relative animate-orbit">
+      <div className="md:w-[85%] w-full h-[70vh] shadow-lg shadow-blue-600 text-white rounded-3xl flex flex-col justify-center items-center bg-[url('/img/cta-bg.png')] bg-cover bg-no-repeat bg-center relative animate-orbit">
         <section className="flex flex-col items-center">
           <h1 className="bg-[linear-gradient(45deg,#2e5799,#597ebe,#4a85f2)] text-transparent bg-clip-text text-[70px] font-bold">
             Let's Talk
